@@ -1,5 +1,13 @@
-$pink : #333;
+$font: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+$primary-color: #485C5A;
 
-.body {
-  color: $pink;
+body {
+  font-family: $font;
+  font-size: 36px;
+  color: $primary-color;
+  h1 {
+    font-family: $font;
+    font-size: 36px;
+    color: $primary-color;
+  }
 }
