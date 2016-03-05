@@ -8,8 +8,14 @@
 
 body {
   h1 {
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
     font-family: $default-font;
     font-size: 36px;
     color: $primary-color;
   }
+}
+#__bs_notify__ {
+  display: none;
 }
