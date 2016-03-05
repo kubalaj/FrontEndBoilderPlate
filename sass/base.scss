@@ -1,12 +1,14 @@
-$font: 'Helvetica Neue', Helvetica, Arial, sans-serif;;
-$primary-color: #485C5A;
+// Import all other files into this file.
+// It will all be compiled into base.css
+// Try to only put main componet styles here
+// Follow https://smacss.com/ for guidelines
+
+@import "colors";
+@import "fonts";
 
 body {
-  font-family: $font;
-  font-size: 36px;
-  color: $primary-color;
   h1 {
-    font-family: $font;
+    font-family: $default-font;
     font-size: 36px;
     color: $primary-color;
   }
